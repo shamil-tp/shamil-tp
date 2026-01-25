@@ -38,8 +38,8 @@ I believe in having the right tools for the job. My development environment is p
 ---
 
 ### 📊 GitHub Stats
-![Shamil's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME_HERE&layout=compact&theme=radical)
+![Shamil's GitHub stats](https://github-readme-stats.vercel.app/api?username=shamil-tp&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shamil-tp&layout=compact&theme=radical)
 
 ---
 
