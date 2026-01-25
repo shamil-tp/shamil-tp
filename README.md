@@ -44,8 +44,6 @@ I believe in having the right tools for the job. My development environment is p
 ---
 
 ### 📫 Let's Connect!
-- **LinkedIn:** [Your Profile Link]
-- **Portfolio:** [Your Portfolio Link]
-- **Email:** [Your Email]
+- **Email:** [shamiltp073@gmail.com]
 
 *"Code is like humor. When you have to explain it, it’s bad."*
