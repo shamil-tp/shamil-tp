@@ -29,10 +29,7 @@ I believe in having the right tools for the job. My development environment is p
 
 ---
 
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shamil-tp&theme=radical&column=7" width="100%" />
-</p>
+
 
 ---
 
