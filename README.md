@@ -37,15 +37,11 @@ I believe in having the right tools for the job. My development environment is p
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=shamil-tp&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shamil-tp&theme=radical" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamil-tp&layout=compact&theme=radical" width="48%" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=radical" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamil-tp&layout=compact&theme=radical" width="100%" />
 </p>
 
 ---
