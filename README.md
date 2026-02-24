@@ -108,6 +108,11 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 
 <br>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<br>
+
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true&color=36BCF7&line=36BCF7&point=ffffff" width="100%" alt="Activity Graph" />
 </div>
