@@ -119,6 +119,8 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 <!--START_SECTION:waka-->
 
 ```txt
+Total Time: 2 hrs 38 mins
+
 JavaScript   2 hrs 5 mins          ███████████████████▓░░░░░   79.28 %
 Bash         22 mins               ███▓░░░░░░░░░░░░░░░░░░░░░   14.24 %
 Text         5 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.33 %
