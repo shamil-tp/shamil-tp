@@ -116,9 +116,8 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 
 <br>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shamil-tp&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=36BCF7&title_color=ffffff&text_color=a9b1d6&layout=compact" width="100%" alt="WakaTime Stats" />
-</div>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 <br>
 

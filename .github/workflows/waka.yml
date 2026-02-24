@@ -1,0 +1,20 @@
+name: WakaTime Status
+
+on:
+  schedule:
+    # Runs at 12:00 AM UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update WakaTime Stat
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TOTAL: true
+          BLOCKS: "⣿⣀"
