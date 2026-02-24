@@ -109,6 +109,11 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 <br>
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 <br>
