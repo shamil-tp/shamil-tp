@@ -116,17 +116,9 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 
 <br>
 
-<!--START_SECTION:waka-->
-
-```txt
-JavaScript   2 hrs 5 mins          ███████████████████▓░░░░░   79.28 %
-Bash         22 mins               ███▓░░░░░░░░░░░░░░░░░░░░░   14.24 %
-Text         5 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.33 %
-JSON         4 mins                ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.90 %
-Markdown     0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 %
-```
-
-<!--END_SECTION:waka-->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shamil-tp&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=36BCF7&title_color=ffffff&text_color=a9b1d6&layout=compact" width="100%" alt="WakaTime Stats" />
+</div>
 
 <br>
 
