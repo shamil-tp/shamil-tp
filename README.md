@@ -29,36 +29,44 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 
 ---
 
-### � Featured Projects
+### 🎯 Current Focus
 
-- **[ChronoDeck](https://github.com/shamil-tp/ChronoDeck.git)**  
+- **Java & Spring Boot:** Deepening my understanding of enterprise-scale backend architecture.
+- **Local AI Integration:** Exploring high-performance, privacy-focused open-source AI models and integrating them into full-stack applications.
+- **System Design:** Focusing on building scalable, highly available systems with advanced caching and database optimization techniques.
+
+---
+
+### 💻 Featured Projects
+
+- **[ChronoDeck](https://github.com/shamil-tp/ChronoDeck.git)** | [Live Demo](#)  
   The next generation of digital gaming. With ChronoDeck, you can master your game time by exploring a vivid range of games. Built using EJS, Express, CookieParser, Mongoose, Nodemon, JWT, and Bcrypt. ChronoDeck is the future of digital gaming delivered instantly.
 
-- **[Skylark](https://github.com/sinanrahman/skylark.git)**  
+- **[Skylark](https://github.com/sinanrahman/skylark.git)** | [Live Demo](#)  
   A premium rent-a-car service designed to offer customers an easy, fast, and reliable way to book cars online. Uses Node.js, Express, MongoDB, Vue, Bootstrap, & Razorpay. Developed with a team of three. Features an advanced, fully functional admin panel with real-time statistics, car management, RBAC, issue resolving, and car maintenance tracking.
 
 - **Tutora (Client Project)**  
   A specialized platform developed strictly per client request to efficiently manage staff, students, and parents. *(Details are private).*
 
-- **[Blogify](https://github.com/shamil-tp/Blogify.git)** (Open Source - MIT License)  
+- **[Blogify](https://github.com/shamil-tp/Blogify.git)** (Open Source - MIT License) | [Live Demo](#)  
   A secure blogging platform created using React. Uses Quill for rich text editing and react-grid-layout for dynamic content positioning like WordPress. The Express backend is highly secure, following OWASP 2025 guidelines. Includes Google OAuth 2, secure storage strategies, Access/Refresh tokens, Helmet, express-rate-limit, Zod for sanitization, and `hpp` parameter pollution prevention.
 
 - **[blog-Rendering-Library](https://github.com/shamil-tp/blog-Rendering-Library.git)** (Open Source - MIT License)  
   A custom WYSIWYG blog rendering library created from scratch purely with Vanilla JavaScript (DOM manipulation based, zero HTML/CSS structure dependencies). Given a blog post slug, it fetches JSON content from the database and constructs the exact structure the author intended.
 
 - **[N-jin](https://github.com/shamil-tp/web-crawler.git)**  
-  A powerful localized search engine. Built a custom web crawler from scratch, scraping and indexing ~250,000 websites to MongoDB. Implemented a custom ranking system using Mongoose aggregation pipelines. Uses Redis for caching, historically hosted on Railway.
+  A powerful localized search engine. Built a custom web crawler from scratch, scraping and indexing **~250,000 websites** to MongoDB. Implemented a custom ranking system using Mongoose aggregation pipelines. Uses **Redis** for caching, historically hosted on Railway.
 
-- **[Osmium](https://github.com/shamil-tp/osmium.git)**  
+- **[Osmium](https://github.com/shamil-tp/osmium.git)** | [Live Demo](#)  
   A lightweight file compression and decompression application built from scratch. Compresses text-based files (.c, .html, .css, .java, .json, .js, etc.) based on the LZ77 algorithm and Huffman coding (similar to Deflate). Built using Node.js, Express, and EJS. No login required.
 
 - **emvBazar (Client Project)**  
   An automated customer debt tracking system featuring automated WhatsApp message reminders. Developed per client request. *(Details are private).*
 
-- **[coffeeCat](https://github.com/shamil-tp/coffeeCat.git)**  
+- **[coffeeCat](https://github.com/shamil-tp/coffeeCat.git)** | [Live Demo](#)  
   An Instagram-WhatsApp hybrid app for a peaceful chatting environment to connect with loved ones. Features image posting, likes, comments, user search, profile viewing, and following functionality. Built using Vue, Express, Socket.io, and Cloudinary.
 
-- **[LUME](https://github.com/shamil-tp/LUME.git)**  
+- **[LUME](https://github.com/shamil-tp/LUME.git)** | [Live Demo](#)  
   A lightweight, simple streaming platform currently under active development.
 
 ---
@@ -73,7 +81,7 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
     </td>
     <td align="center" width="50%">
       <b>Backend & Data</b><br><br>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,java,spring,postgres,c&theme=dark" alt="Backend tools" />
+      <img src="https://skillicons.dev/icons?i=java,spring,postgres,nodejs,express,mongodb,c&theme=dark" alt="Backend tools" />
     </td>
   </tr>
   <tr>
