@@ -135,7 +135,7 @@ Markdown     0 secs                ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <br>
 
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/shamil-tp?theme=dark&font=Fira%20Code&ext=activity" width="100%" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/shamil-tp?theme=dark&font=Fira%20Code" width="100%" alt="LeetCode Stats" />
 </div>
 
 <br>
