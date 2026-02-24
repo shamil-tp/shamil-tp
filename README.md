@@ -132,6 +132,14 @@ Markdown     0 secs                ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 
 <br>
 
+<br>
+
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/shamil-tp?theme=tokyonight&font=Fira%20Code&ext=activity" width="100%" alt="LeetCode Stats" />
+</div>
+
+<br>
+
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true&color=36BCF7&line=36BCF7&point=ffffff" width="100%" alt="Activity Graph" />
 </div>
