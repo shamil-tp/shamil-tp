@@ -91,10 +91,15 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shamil-tp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=36BCF7&title_color=ffffff&text_color=a9b1d6" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamil-tp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=ffffff&text_color=a9b1d6" width="49%" alt="Top Languages" />
+  <img src="https://komarev.com/ghpvc/?username=shamil-tp&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </div>
 
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shamil-tp&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=36BCF7&title_color=ffffff&text_color=a9b1d6&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shamil-tp&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=ffffff&text_color=a9b1d6" width="49%" alt="Top Languages" />
+</div>
 <br>
 
 <div align="center">
