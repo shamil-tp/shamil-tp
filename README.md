@@ -149,7 +149,7 @@ Text         5 mins                ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <br>
 
 <div align="center">
-  <b><i>"Code is like humor. When you have to explain it, it’s bad."</i></b>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote" />
 </div>
 
 <br>
