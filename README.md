@@ -67,7 +67,7 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
   An Instagram-WhatsApp hybrid app for a peaceful chatting environment to connect with loved ones. Features image posting, likes, comments, user search, profile viewing, and following functionality. Built using **`Vue`**, **`Express`**, **`Socket.io`**, and **`Cloudinary`**.
 
 - **[LUME](https://github.com/shamil-tp/LUME.git)**  
-  A lightweight, simple streaming platform currently under active development.
+  An advanced media streaming platform. Implements a **`tus server`** for resilient, resumable media uploads. Utilizes **`FFmpeg`** to automatically slice media into 6-second chunks (`.m3u8` format), storing video data in **`Cloudflare R2`**, thumbnails in **`Cloudinary`**, and metadata via **`Mongoose`**. Includes a custom **`HLS media player`** supporting adaptive bitrate streaming for low-bandwidth environments with low latency (up to +30s).
 
 ---
 
