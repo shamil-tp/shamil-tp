@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamil | Featured Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --text-color: #e5e5e5;
+            --text-muted: #a0a0a0;
+            --accent-color: #36BCF7;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.05);
+            --card-hover-border: rgba(54, 188, 247, 0.3);
+            --glass-gradient: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+            --blob-color-1: rgba(54, 188, 247, 0.15);
+            --blob-color-2: rgba(138, 43, 226, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Abstract Background Blobs */
+        .bg-blob {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(100px);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .blob-1 {
+            width: 50vw;
+            height: 50vw;
+            background: var(--blob-color-1);
+            top: -10vw;
+            left: -10vw;
+        }
+
+        .blob-2 {
+            width: 40vw;
+            height: 40vw;
+            background: var(--blob-color-2);
+            bottom: -5vw;
+            right: -10vw;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 5rem;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #ffffff, var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.8s ease-out backwards;
+        }
+
+        /* Staggered animation delays for cards */
+        .project-card:nth-child(1) { animation-delay: 0.1s; }
+        .project-card:nth-child(2) { animation-delay: 0.2s; }
+        .project-card:nth-child(3) { animation-delay: 0.3s; }
+        .project-card:nth-child(4) { animation-delay: 0.4s; }
+        .project-card:nth-child(5) { animation-delay: 0.5s; }
+        .project-card:nth-child(6) { animation-delay: 0.6s; }
+        .project-card:nth-child(7) { animation-delay: 0.7s; }
+        .project-card:nth-child(8) { animation-delay: 0.8s; }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--glass-gradient);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--card-hover-border);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(54, 188, 247, 0.1);
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .project-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .project-link {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: var(--accent-color);
+        }
+
+        .project-desc {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tech-tag {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--accent-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover .tech-tag {
+            background: rgba(54, 188, 247, 0.08);
+            border-color: rgba(54, 188, 247, 0.2);
+        }
+
+        .contributions {
+            border-top: 1px solid var(--card-border);
+            padding-top: 1.5rem;
+            margin-top: auto;
+        }
+
+        .contributions h4 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 0.8rem;
+        }
+
+        .contributions ul {
+            list-style-type: none;
+        }
+
+        .contributions li {
+            position: relative;
+            padding-left: 1.5rem;
+            color: #d0d0d0;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contributions li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .projects-grid { grid-template-columns: 1fr; }
+            .container { padding: 2rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <div class="container">
+        <header>
+            <h1>My Featured Work</h1>
+            <p>A collection of my latest web applications, projects, and custom solutions, highlighting my technical contributions and expertise.</p>
+        </header>
+
+        <main class="projects-grid">
+
+            <!-- Skylark -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/sinanrahman/skylark.git" target="_blank" class="project-link">Skylark</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">A premium rent-a-car service designed to offer customers an easy, fast, and reliable way to book cars online. Developed with a team of three.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Vue</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">Razorpay</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Developed an advanced, fully functional admin panel</li>
+                        <li>Implemented real-time statistics and car management</li>
+                        <li>Built Role-Based Access Control (RBAC) architecture</li>
+                        <li>Engineered issue resolving and car maintenance tracking workflows</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Tutora -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <span class="project-link">Tutora</span>
+                </h3>
+                <p class="project-desc">A specialized private platform developed strictly per client request to efficiently manage educational operations.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Private Client Project</span>
+                    <span class="tech-tag">Full-Stack</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Architected secure portals for staff, students, and parents</li>
+                        <li>Implemented comprehensive user management systems</li>
+                        <li>Tailored custom workflows entirely to specific client requirements</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Blogify -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/shamil-tp/Blogify.git" target="_blank" class="project-link">Blogify</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">A highly secure modern blogging platform built with React, focusing on rich editing experiences and stringent security protocols.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">OAuth 2</span>
+                    <span class="tech-tag">Quill</span>
+                    <span class="tech-tag">Helmet</span>
+                    <span class="tech-tag">Zod</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Integrated Quill for rich text editing and react-grid-layout for dynamic positioning</li>
+                        <li>Secured backend following OWASP 2025 guidelines (Helmet, rate-limiting, hpp)</li>
+                        <li>Implemented Google OAuth 2 alongside JWT access/refresh token strategies</li>
+                        <li>Engineered robust parameter sanitization pipelines using Zod</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- blog-Rendering-Library -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/shamil-tp/blog-Rendering-Library.git" target="_blank" class="project-link">blog-Rendering-Library</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">A custom WYSIWYG blog rendering library created from scratch, designed to construct intended structures directly from JSON.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Vanilla JavaScript</span>
+                    <span class="tech-tag">DOM Manipulation</span>
+                    <span class="tech-tag">Zero Dependencies</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Engineered raw DOM manipulation algorithms with zero HTML/CSS structure dependencies</li>
+                        <li>Developed parsers to map database JSON payloads into exact visual structures</li>
+                        <li>Published as open-source (MIT License) for community usage</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- N-jin -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/shamil-tp/web-crawler.git" target="_blank" class="project-link">N-jin</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">A powerful, scalable localized search engine powered by a custom-built distributed web crawler.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">Mongoose</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Built a custom web crawler from scratch traversing ~250,000 websites</li>
+                        <li>Designed dynamic MongoDB schemas to index massive data volumes</li>
+                        <li>Implemented an intelligent ranking algorithm via Mongoose aggregation pipelines</li>
+                        <li>Optimized search latency aggressively utilizing Redis caching layers</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Osmium -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/shamil-tp/osmium.git" target="_blank" class="project-link">Osmium</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">A lightweight, highly optimized file compression and decompression application built entirely from mathematical fundamentals.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Algorithm Dev</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">EJS</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Implemented complex LZ77 algorithmic logic from scratch</li>
+                        <li>Engineered custom Huffman coding tree generations (similar to Deflate)</li>
+                        <li>Enabled seamless handling of various text-based extensions (.c, .html, .json, etc.)</li>
+                        <li>Created an immediate, login-free UI using EJS for rapid user conversions</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- emvBazar -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <span class="project-link">emvBazar</span>
+                </h3>
+                <p class="project-desc">An automated customer debt tracking system developed specifically to modernize financial communication for a client.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Private Client Project</span>
+                    <span class="tech-tag">Automation</span>
+                    <span class="tech-tag">API Integration</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Architected backend debt ledgers mapping directly to customer profiles</li>
+                        <li>Integrated scheduled, automated WhatsApp messaging APIs for debt reminders</li>
+                        <li>Streamlined business collection processes ensuring data privacy</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- coffeeCat -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/shamil-tp/coffeeCat.git" target="_blank" class="project-link">coffeeCat</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">An Instagram-WhatsApp hybrid app serving as a peaceful chatting environment to connect with loved ones.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">Vue</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">Socket.io</span>
+                    <span class="tech-tag">Cloudinary</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Built real-time, bi-directional chat infrastructure utilizing Socket.io</li>
+                        <li>Constructed a social graph supporting user search, profiles, and following mechanics</li>
+                        <li>Integrated Cloudinary pipelines for fast image posting, alongside likes and comments capabilities</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- LUME -->
+            <article class="project-card">
+                <h3 class="project-title">
+                    <a href="https://github.com/shamil-tp/LUME.git" target="_blank" class="project-link">LUME</a>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-muted);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </h3>
+                <p class="project-desc">An advanced, production-ready media streaming platform built to handle heavy file operations and low-latency delivery.</p>
+                
+                <div class="tech-stack">
+                    <span class="tech-tag">tus</span>
+                    <span class="tech-tag">FFmpeg</span>
+                    <span class="tech-tag">HLS</span>
+                    <span class="tech-tag">Cloudflare R2</span>
+                    <span class="tech-tag">Cloudinary</span>
+                </div>
+
+                <div class="contributions">
+                    <h4>Key Contributions</h4>
+                    <ul>
+                        <li>Implemented a tus server handling highly resilient, resumable chunked media uploads</li>
+                        <li>Engineered FFmpeg pipelines slicing target media into 6-second adaptative .m3u8 chunks</li>
+                        <li>Configured secure, edge-optimized storage targeting Cloudflare R2 alongside Cloudinary asset management</li>
+                        <li>Built a custom HLS player seamlessly navigating low latency (up to +30s) and variable bandwidth environments</li>
+                    </ul>
+                </div>
+            </article>
+
+        </main>
+    </div>
+
+</body>
+</html>

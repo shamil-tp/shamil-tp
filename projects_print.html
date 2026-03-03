@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shamil - Project Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #000;
+            background: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            font-size: 11pt;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #000;
+            padding-bottom: 1rem;
+        }
+
+        .name-title {
+            font-size: 24pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.2rem;
+        }
+
+        .job-title {
+            font-size: 14pt;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+            color: #222;
+        }
+
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section-heading {
+            font-size: 16pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .project {
+            margin-bottom: 1.5rem;
+            page-break-inside: avoid;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.25rem;
+        }
+
+        .project-title {
+            font-size: 14pt;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .project-links {
+            font-size: 10pt;
+            text-align: right;
+            font-weight: 600;
+        }
+
+        .project-links a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .project-desc {
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            font-size: 10.5pt;
+        }
+
+        .tech-stack {
+            font-size: 9.5pt;
+            margin-bottom: 0.6rem;
+            color: #333;
+        }
+
+        .tech-stack strong {
+            color: #000;
+        }
+
+        .contributions {
+            margin-top: 0.5rem;
+        }
+
+        .contributions ul {
+            margin-top: 0.2rem;
+            padding-left: 1.25rem;
+        }
+
+        .contributions li {
+            margin-bottom: 0.25rem;
+            font-size: 10pt;
+        }
+        
+        .separator {
+            margin: 0 0.4rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <div class="name-title">SHAMIL T P</div>
+        <div class="job-title">FULL STACK WEB DEVELOPER</div>
+        <div class="contact-info">
+            Kerala, India <span class="separator">|</span> 7902786927 <span class="separator">|</span> <a href="mailto:shamiltp073@gmail.com">shamiltp073@gmail.com</a> <br>
+            <a href="https://linkedin.com/in/shamil-tp">linkedin.com/in/shamil-tp</a> <span class="separator">|</span> <a href="https://github.com/shamil-tp">github.com/shamil-tp</a>
+        </div>
+    </div>
+
+    <div class="section-heading">Project Portfolio</div>
+
+    <!-- Skylark -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">Skylark</h2>
+            <div class="project-links">
+                <a href="https://skylark-frontend-eqdt.onrender.com/auth/login">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/sinanrahman/skylark.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> Node.js, Express, MongoDB, Vue, Bootstrap, Razorpay</div>
+        <div class="project-desc">A premium rent-a-car service offering customers an easy, fast, and reliable platform to book vehicles effortlessly.</div>
+        <div class="contributions">
+            <ul>
+                <li>Developed an advanced, fully functional administrative management panel.</li>
+                <li>Implemented real-time statistics and complex vehicle tracking workflows.</li>
+                <li>Built a comprehensive Role-Based Access Control (RBAC) architecture.</li>
+                <li>Engineered automated issue resolving and vehicle maintenance tracking operations.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Tutora -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">Tutora</h2>
+            <div class="project-links">
+                <i>Private Repo (Client Project)</i>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> Full-Stack Custom Architecture</div>
+        <div class="project-desc">An intricately tailored private platform built specifically per client specifications to manage vast educational data.</div>
+        <div class="contributions">
+            <ul>
+                <li>Architected isolated, highly secure portals strictly for staff, students, and parents.</li>
+                <li>Programmed comprehensive centralized user management directories.</li>
+                <li>Calculated and structured custom business logic scaling dynamically to institutional needs.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Blogify -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">Blogify</h2>
+            <div class="project-links">
+                <a href="https://blogify-7mdx.vercel.app/">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/shamil-tp/Blogify.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> React, Express, OAuth 2, Quill, Helmet, Zod</div>
+        <div class="project-desc">A highly secure modern blogging ecosystem emphasizing rich editing features and strict backend security protocols.</div>
+        <div class="contributions">
+            <ul>
+                <li>Integrated Quill for deep text editing intertwined with `react-grid-layout` for precise UI positioning.</li>
+                <li>Hardened backend endpoints enforcing strict OWASP 2025 guidelines (Helmet headers, global rate-limits, HPP).</li>
+                <li>Deployed a unified authentication schema utilizing Google OAuth 2 alongside stateful JWT access/refresh strategies.</li>
+                <li>Devised a robust parameter sanitization pipeline exploiting Zod schema validation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- blog-Rendering-Library -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">blog-Rendering-Library</h2>
+            <div class="project-links">
+                <a href="https://shamil-tp.github.io/blog-Rendering-Library/?slug=messis-world-cup-glory-48qNNV&theme=tokyo_night">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/shamil-tp/blog-Rendering-Library.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> Vanilla JavaScript, DOM Manipulation API</div>
+        <div class="project-desc">A custom WYSIWYG blog rendering engine interpreting database JSON payloads into direct structural interface mechanics. Features custom built themes natively.</div>
+        <div class="contributions">
+            <ul>
+                <li>Engineered low-level DOM manipulation functions eradicating entire classes of external structure dependencies.</li>
+                <li>Developed memory-efficient internal parsers mapping database JSON representations into precise visual HTML nodes.</li>
+                <li>Created and published freely as an open-source MIT toolkit for widespread architectural adoption.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- N-jin -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">N-jin</h2>
+            <div class="project-links">
+                <a href="https://magnificent-recreation-production.up.railway.app/">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/shamil-tp/web-crawler.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> Node.js, MongoDB, Redis, Mongoose</div>
+        <div class="project-desc">A highly specialized algorithmic search system fed aggressively by an internally constructed web crawler traversing massive domains.</div>
+        <div class="contributions">
+            <ul>
+                <li>Authored a recursive, polite web crawler successfully traversing and cataloging upwards of 250,000 distinct domains.</li>
+                <li>Optimized fragmented MongoDB database architectures handling enormous localized read/write database operations seamlessly.</li>
+                <li>Coded an intelligent weighting node utilizing powerful Mongoose aggregation pipelines to rank textual textual data rapidly.</li>
+                <li>Intercepted severe querying read-latencies by routing intense lookups directly through an in-memory Redis cache.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Osmium -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">Osmium</h2>
+            <div class="project-links">
+                <a href="https://osmium-production.up.railway.app">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/shamil-tp/osmium.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> Node.js, Express, EJS, Applied Algorithms</div>
+        <div class="project-desc">A highly optimized data compression application exploiting structural mathematical principles without requiring rigid user registrations.</div>
+        <div class="contributions">
+            <ul>
+                <li>Deciphered and rebuilt the intricate LZ77 dictionary-based algorithmic compression heavily from origin principles.</li>
+                <li>Paired LZ77 procedural abstractions explicitly against Huffman binary tree generations mimicking true Deflate compression standards.</li>
+                <li>Engineered lossless integrity operations handling diverse syntax file extensions (.c, .html, .css, .java) via raw byte streams.</li>
+                <li>Exposed the engine instantly utilizing simple Server-Side Rendered (SSR) interactive frontend interfaces natively via EJS.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- emvBazar -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">emvBazar</h2>
+            <div class="project-links">
+                <i>Private Repo (Client Project)</i>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> PWA, AWS EC2, Automation Pipelines, API Integration</div>
+        <div class="project-desc">A continuous automated Progressive Web App (PWA) customer debt tracking framework entirely hosted and self-managed on Amazon AWS Cloud. Designed to modernize a B2C client's explicit internal financial communications.</div>
+        <div class="contributions">
+            <ul>
+                <li>Formulated explicit programmatic chron-jobs directly intersecting targeted internal localized customer CRM profiles.</li>
+                <li>Dramatically reduced systemic manual intervention by connecting the WhatsApp Business API rendering automated scheduled debt reminders natively.</li>
+                <li>Strictly enforced zero-leak operational business constraints successfully protecting entirely private externalized financial negotiations.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- coffeeCat -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">coffeeCat</h2>
+            <div class="project-links">
+                <a href="https://coffee-cat-topaz.vercel.app/login">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/shamil-tp/coffeeCat.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> Vue, Express, Socket.io, Cloudinary</div>
+        <div class="project-desc">An organized Instagram-WhatsApp hybrid app serving primarily as an intuitive, peaceful, isolated real-time chatting environment.</div>
+        <div class="contributions">
+            <ul>
+                <li>Instantiated bi-directional concurrent socket connections capable of tracking distinct online clients rapidly through rigorous Socket.io instances.</li>
+                <li>Drafted resilient internal social hierarchies effectively analyzing textual local search states natively against isolated profile user data.</li>
+                <li>Delegated profoundly costly systemic image processing logic explicitly outwards utilizing decoupled Cloudinary SaaS API protocols comprehensively.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- LUME -->
+    <div class="project">
+        <div class="project-header">
+            <h2 class="project-title">LUME</h2>
+            <div class="project-links">
+                <a href="https://lume-one.vercel.app/">Live Link</a> &nbsp;|&nbsp; <a href="https://github.com/shamil-tp/LUME.git">GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tech-stack"><strong>Tech Stack:</strong> tus, FFmpeg, HLS, Cloudflare R2, Cloudinary</div>
+        <div class="project-desc">An aggressively edge-optimized media platform heavily navigating incredibly intricate concurrent media operations yielding strictly reliable transfers.</div>
+        <div class="contributions">
+            <ul>
+                <li>Orchestrated an inherently isolated independent tus server deliberately exploiting robust chunked internal patch protocols mitigating deeply severed media streams aggressively.</li>
+                <li>Spun exceedingly resilient internal FFmpeg instances splitting explicit incoming multimedia payloads directly rendering highly accurate adaptive `.m3u8` HTTP live streaming fragments efficiently.</li>
+                <li>Successfully bypassed monolithic core application storage limitations piping freshly encoded discrete fragments natively into completely highly optimized target Cloudflare R2 instances.</li>
+                <li>Configured a singularly specialized robust web HLS target media user interface dynamically adapting actively traversing remarkably volatile internal network limitations yielding low-latency visual performance effectively.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
