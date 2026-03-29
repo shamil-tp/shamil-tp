@@ -25,7 +25,7 @@
 
 ### 👨‍💻 About Me
 
-<img align="right" src="./0a7be7b9f24ce4dd9f6243476d03cf98.gif" width="300" alt="coding gif" />
+<img align="right" src="./coding-hack.png" width="300" alt="coding gif" />
 
 Welcome to my digital space! I am a passionate Full-Stack Developer currently honing my skills in creating user-centric, performant web applications. When I'm not coding, I am usually diving deep into Data Structures, tweaking my Linux environment, or experimenting with high-performance local AI.
 
