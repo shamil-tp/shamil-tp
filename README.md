@@ -4,6 +4,7 @@
   
   <h2>Full-Stack Developer Intern</h2>
   
+  <div style="background:url('./coding-hack.png');background-size:cover;background-position:center;padding:20px;border-radius:10px;">
   <p align="center">
     <a href="https://github.com/shamil-tp">
       <img alt="Typing SVG" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=36BCF7&center=true&vCenter=true&width=535&lines=Building+scalable+web+applications;Turning+complex+problems+into+elegant+code;Passionate+about+DSA+%26+C+programming;Exploring+Local+AI+Integration" />
@@ -18,6 +19,7 @@
       <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&color=0077B5" alt="LinkedIn" />
     </a>
   </p>
+  </div>
 
 </div>
 
