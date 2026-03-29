@@ -21,11 +21,15 @@
 
 </div>
 
+<br>
+
+<div align="center">
+  <img src="./coding-hack.png" width="250" alt="coding gif" />
+</div>
+
 ---
 
 ### 👨‍💻 About Me
-
-<img align="right" src="./coding-hack.png" width="300" alt="coding gif" />
 
 Welcome to my digital space! I am a passionate Full-Stack Developer currently honing my skills in creating user-centric, performant web applications. When I'm not coding, I am usually diving deep into Data Structures, tweaking my Linux environment, or experimenting with high-performance local AI.
 
