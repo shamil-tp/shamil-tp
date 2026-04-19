@@ -127,13 +127,13 @@ Welcome to my digital space! I am a passionate Full-Stack Developer currently ho
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 6 hrs 53 mins
+Total Time: 7 hrs 1 min
 
-JavaScript   3 hrs 1 min           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   42.77 %
-PowerShell   1 hr 47 mins          ⣀⣀⣀⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   25.38 %
-Bash         1 hr 29 mins          ⣀⣀⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   21.05 %
-Text         20 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   04.84 %
-JSON         13 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   03.16 %
+JavaScript   3 hrs                 ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   41.87 %
+PowerShell   1 hr 55 mins          ⣀⣀⣀⣀⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   26.85 %
+Bash         1 hr 29 mins          ⣀⣀⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   20.68 %
+Text         20 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   04.76 %
+JSON         13 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   03.10 %
 ```
 
 <!--END_SECTION:waka-->
