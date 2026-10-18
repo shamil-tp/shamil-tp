@@ -157,6 +157,16 @@ JavaScript   2 hrs 18 mins         ⣀⣀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <br>
 
 <div align="center">
+  <object type="image/svg+xml" data="https://github-widgets-tawny.vercel.app/api/og-card?theme=purple" width="600">
+    <img src="https://github-widgets-tawny.vercel.app/api/og-card?theme=purple" alt="Shamil TP Portfolio Card" width="600" />
+  </object>
+</div>
+
+---
+
+<br>
+
+<div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote" />
 </div>
 
