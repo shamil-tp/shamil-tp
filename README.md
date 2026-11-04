@@ -1,3 +1,4 @@
+<a href="https://www.google.com/search?q=shamil+tp" target="_blank">
 <div align="center">
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Shamil&fontSize=80&fontAlignY=40&animation=twinkling&fontColor=ffffff" width="100%" alt="Header" />
@@ -187,3 +188,5 @@ Other        16 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" alt="Footer" />
 </div>
+
+</a>
