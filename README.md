@@ -157,9 +157,7 @@ Other        16 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <br>
 
 <div align="center">
-  <object type="image/svg+xml" data="https://github-widgets-tawny.vercel.app/api/og-card?theme=purple" width="600">
-    <img src="https://github-widgets-tawny.vercel.app/api/og-card?theme=purple" alt="Shamil TP Portfolio Card" width="600" />
-  </object>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true" width="100%" alt="Contribution Graph" />
 </div>
 
 ---
