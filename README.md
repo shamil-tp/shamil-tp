@@ -149,7 +149,7 @@ Other        16 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true&color=36BCF7&line=36BCF7&point=ffffff" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/github-compact?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true&color=36BCF7&line=36BCF7&point=ffffff" width="100%" alt="Activity Graph" />
 </div>
 
 ---
@@ -161,6 +161,20 @@ Other        16 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
     <img src="https://github-widgets-tawny.vercel.app/api/og-card?theme=purple" alt="Shamil TP Portfolio Card" width="600" />
   </object>
 </div>
+
+---
+
+<br>
+
+<a href="https://www.google.com/search?q=Dhanush+Nehru">
+  <table align="left">
+      <tr>
+          <td>
+            🙂&nbsp;&nbsp;Learn more about me!
+          </td>
+      </tr>
+  </table>
+</a>
 
 ---
 
