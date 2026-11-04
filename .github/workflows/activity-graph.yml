@@ -1,0 +1,27 @@
+name: Generate GitHub Activity Graph SVG
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Activity Graph Card
+        uses: maurodesouza/github-readme-activity-graph-action@v1.0.0
+        with:
+          username: shamil-tp
+          output_path: current.svg
+          options: "theme=tokyonight&bg_color=0D1117&hide_border=true&color=36BCF7&line=36BCF7&point=ffffff"
+
+      - name: Deploy SVG to Dedicated Branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: activity-graph-assets
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

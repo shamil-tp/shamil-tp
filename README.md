@@ -157,17 +157,12 @@ Other        16 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true&v=1" width="100%" alt="Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/shamil-tp/shamil-tp/activity-graph-assets/current.svg" width="100%" alt="Shamil's github activity graph" />
 </div>
 
 
 ---
-<br>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shamil-tp&theme=tokyonight&bg_color=0D1117&hide_border=true&v=1" width="100%" alt="Activity Graph" />
-</div>
----
 
 <br>
 
@@ -180,6 +175,7 @@ Other        16 mins               ⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
       </tr>
   </table>
 </a>
+
 
 ---
 
