@@ -26,7 +26,7 @@
 <br>
 
 <div align="center">
-  <img src="./coding-hack.png" width="500" alt="coding gif" />
+  <img src="./conecting.webp" width="500" alt="coding gif" />
 </div>
 
 ---
